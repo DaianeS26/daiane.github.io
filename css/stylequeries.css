@@ -1,0 +1,76 @@
+
+@media screen and (min-width: 800px) {
+    .container {
+      display: flex;
+    }
+  
+    .image {
+      width: 50%; 
+      padding-right: 20px;
+    }
+  
+    .intro {
+      width: 50%;
+    }
+
+    .title{
+        flex-grow: 2;
+    }
+
+    .nav-bar{
+        flex-grow: 1;
+        align-self: flex-end;
+        margin-left: 10px;
+        
+    }
+
+    .empty{
+        flex-grow: 2;
+    }
+    
+    .hide {
+        display: none;
+    }
+    
+    .image-project{
+       order: 1;
+        
+    }
+
+    .project{
+        order: 0;
+        /* width: 50%; */
+    
+    }
+
+    .project-content{
+        margin-right: 20px;
+    }
+
+    .test{
+        width: 100%;
+    }
+   
+    .project-links a{
+        font-size: 15px;
+       
+    }
+
+    .project-links{
+        margin-bottom: 20px;
+    }
+
+    main h2{
+        margin-bottom: 25px;
+    }
+
+    main h1{
+        margin-bottom: 30px;
+    }
+
+    header{
+        margin-bottom: 20px;
+    } 
+
+}
+  
