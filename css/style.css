@@ -3,7 +3,7 @@
 :root {
     --white: #fefefe;
     --light-black: 	#696969;
-    --silver: #F3F2F2;
+    --silver: #EDEDED;
 
   }
 
@@ -16,69 +16,34 @@
 
 body{
     font-family: 'Montserrat', sans-serif;
-    padding: 20px;
+    /* padding: 20px; */
     margin: 0 auto;
     max-width: 100%;
     color: var--light-black;
     line-height: 2em;
-    background-color: var--silver;
+    /* background-color: var--silver; */
+    background-color: #EDEDED;
 }
 
-.nav-bar ul li{
-    list-style: none;
-    font-size: 0.9rem;
+.main-img{
+    height: 20em;
+    width: 20em;
+    border-radius: 10em;
+    border: 2px black solid;
+    margin: 20px;
+    
 }
 
-.nav-bar li{
-    display: inline;
-    /* margin-right: 15px; */
+.image{
+    text-align: center;
 }
 
-/* .nav-bar{
-    padding-bottom: 20px;
-} */
+.intro{
+    background-color: #FFF;
+    border-radius: 10px;
+    margin: 10px;
+    line-height: 2em;
 
-.nav-bar a:visited{
-    color: black;
-}
-
-.container, .image{
-    margin: 20px auto;
-}
-
-.quick-intro{
-    line-height: 1.2em;
-}
-
-.quick-intro p{
-    margin-bottom: 1em;
-}
-
-.content p{
-    margin-top: 20px;
-}
-
-.content{
-    margin: 10px 50px;
-}
-
-
-
-.quick-intro{
-    border-bottom: 1px gray solid;
-}
-
-.quick-intro h1{
-    margin-bottom: 5px;
-}
-
-.social-media ul li{
-    list-style: none;
-    font-size: 0.8rem;
-
-}
-.quick-intro h3, .quick-intro h5{
-    padding-bottom: 10px;
 }
 
 .center-div{
@@ -86,20 +51,20 @@ body{
 
 }
 
-.main-img{
-   height: 400px;
-   border-radius: 150px;
-   border: 2px #D3D3D3 solid;
-   width: 80%;
-   
+.content{
+    margin: 20px;
 }
 
 .tab{
     text-indent: 50px;
     text-align: justify;
+    margin: 10px;
 }
 
+
 /* Projects file */
+
+
 
 .project-page{
     margin: 20px auto;
@@ -109,8 +74,14 @@ body{
 
 .project-content{
     text-align: justify;
-    margin-left: 20px;
-    margin-right: 20px;
+    margin: 10px 20px;
+    background-color: #fff;
+    border-radius: 2em;
+    padding: 10px;
+}
+
+.image-project{
+    margin: 20px;
 }
 
 .project-links ul li{
@@ -134,15 +105,12 @@ body{
 
 .port-img{
     width: 100%;
-    border-radius: 50px;
+    border-radius: 40px;
     -webkit-box-shadow: 7px 11px 5px 0px rgba(105,103,105,1);
     -moz-box-shadow: 7px 11px 5px 0px rgba(105,103,105,1);
     box-shadow: 7px 11px 5px 0px rgba(105,103,105,1);
 }
 
-.project, .project-content{
-    margin-top: 30px;
-}
 
 
 /* Resume */
@@ -193,4 +161,4 @@ body{
 
 .justified-paragraph{
     text-align: justify;
-}
+} */
