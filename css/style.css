@@ -28,7 +28,7 @@ body{
 .main-img{
     height: 20em;
     width: 20em;
-    border-radius: 10em;
+    border-radius: 50%;
     border: 2px black solid;
     margin: 20px;
     
@@ -41,7 +41,7 @@ body{
 .intro{
     background-color: #FFF;
     border-radius: 10px;
-    margin: 10px;
+    margin: 10px 25px;
     line-height: 2em;
 
 }
@@ -61,6 +61,13 @@ body{
     margin: 10px;
 }
 
+.value__img{
+    height: 5em;
+    width: 5em;
+    border-radius: 50%;
+    border: 1px black solid;
+}
+
 
 /* Projects file */
 
@@ -72,16 +79,25 @@ body{
 
 }
 
+.sub-wrapper{
+    background-color: #fff;
+    border-radius: 2em;
+    margin: 2em 2em;
+    
+    
+}
+
 .project-content{
     text-align: justify;
     margin: 10px 20px;
-    background-color: #fff;
-    border-radius: 2em;
     padding: 10px;
 }
 
 .image-project{
-    margin: 20px;
+    margin-left: 2em;
+    display: flex;
+   
+
 }
 
 .project-links ul li{
@@ -104,8 +120,10 @@ body{
 }
 
 .port-img{
-    width: 100%;
-    border-radius: 40px;
+    width: 45%;
+    height: 200px;
+    margin: .5em;
+    border-radius: 50px;
     -webkit-box-shadow: 7px 11px 5px 0px rgba(105,103,105,1);
     -moz-box-shadow: 7px 11px 5px 0px rgba(105,103,105,1);
     box-shadow: 7px 11px 5px 0px rgba(105,103,105,1);
@@ -125,11 +143,11 @@ body{
 }
 
 .details{
-    margin-bottom: 30px;
+    margin: 30px auto;
 }
 
 .resume{
-    margin-top: 2em;
+    margin: 2em;
     background-color: #fff;
     border: 1px #f7eff7 solid;
     border-radius: 20px;
