@@ -25,6 +25,10 @@ body{
     background-color: #EDEDED;
 }
 
+.b-img{
+  background-image: url("/images/header-img.jpg");
+}
+
 .main-img{
     height: 20em;
     width: 20em;
